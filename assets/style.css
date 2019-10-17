@@ -23,15 +23,30 @@ body{
 
 }
 .profile-image{
-    background: url(images/IMG_8247.JPG) no-repeat bottom center;
+    background: url(../assets/images/IMG_8247.JPG) no-repeat bottom center;
     background-size: 90% 100%;
     clip-path: ellipse(39% 50% at 48% 51%);
     /* clip-path: ellipse(30% 48% at 48% 51%); */
 
     
 }
-.name{
+.name-2{
     color:peachpuff;
+    display: inline-block;
+    font-family: 'Tangerine', cursive;
+    letter-spacing: 0.15rem;
+    font-size:3.2rem;
+    margin-top: 5rem;
+    max-width: 270px;
+    height:160px;
+   font-weight: 300;
+    
+}
+.big-letter{
+    font-size: 60px;
+    color:peachpuff;
+    font-family: 'Tangerine', cursive;
+    
 }
 .profile-info{
     display: flex;
@@ -98,7 +113,8 @@ hr{
 }
 .projects{
     font-size:1.05rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom:0;
     letter-spacing: 0.1rem;
     line-height: 1.2rem;
 }
